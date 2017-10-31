@@ -10,14 +10,29 @@
     <a class= "my-link" href = "http://www.facebook.com"> website 3</a>
     <a class= "my-link" href = "http://www.facebook.com"> website 4</a>
 
-  <script>
-    document.getElementById('google').innerHTML = "Google";
-    let links = document.getElementByClassName('my-link');
-    links[0].innerHTML= "Twitter";
-    links[0].href = "http://www.twitter.com";
-    links[1].innerHTML= "LinkedIn";
-    links[1].href= "http://linkedin.com";
-    links[1].style.color= "red";
-  </script>
+    <h1> DOM is cool!</h1>
+    <button id="heading-button" type="button">change to red</button>
+    <button id= "toggle-button" type="button">Toggle Links</button>
+
+<div id= "main-text">
+
+    <h1>HTML and CSS</h1>
+    <button class="project-button" type="button">Recent projects</button>
+    <ul class="projects">
+      <li>Newark, DE</li>
+      <li>U. of Del</li>
+    </ul>
+
+    <h1>JavaScript</h1>
+    <button class="project-button" type="button">Recent projects</button>
+    <ul class="projects">
+      <li>JS for NYC</li>
+      <li>JQuery for misy350</li>
+    </ul>
+
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src = "jquery-basics.js"></script>
   </body>
 </html>
